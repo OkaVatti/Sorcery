@@ -1,0 +1,129 @@
+/*
+
+         .M"""bgd   .g8""8q. `7MM"""Mq.   .g8"""bgd `7MM"""YMM  `7MM"""Mq.`YMM'   `MM'
+        ,MI    "Y .dP'    `YM. MM   `MM..dP'     `M   MM    `7    MM   `MM. VMA   ,V  
+        `MMb.     dM'      `MM MM   ,M9 dM'       `   MM   d      MM   ,M9   VMA ,V   
+          `YMMNq. MM        MM MMmmdM9  MM            MMmmMM      MMmmdM9     VMMP    
+        .     `MM MM.      ,MP MM  YM.  MM.           MM   Y  ,   MM  YM.      MM     
+        Mb     dM `Mb.    ,dP' MM   `Mb.`Mb.     ,'   MM     ,M   MM   `Mb.    MM     
+        P"Ybmmd"    `"bmmd"' .JMML. .JMM. `"bmmmd'  .JMMmmmmMMM .JMML. .JMM. .JMML.   
+
+        v v0.0.1a-1
+        
+        Distributed Under The MIT License
+
+*/
+
+/*
+        Credits
+
+            Created by L.P with inspiration from:
+        
+                Comfy:          https://github.com/Comfy-Themes/Spicetify/tree/main/Comfy
+                spicetify-tui:  https://github.com/AvinashReddy3108/spicetify-tui/tree/master
+*/
+
+/*
+        Introduction
+
+                A Simple Theme With Pretty Colors
+                Featuring: No Banner Ads! :D 
+
+                  it works on my system, just modify 
+                    it to work on yours if it doesn't
+                
+                ~-=\O-O/=-~
+
+*/
+
+/*
+
+                                   ,,              
+        `7MMM.     ,MMF'           db              
+          MMMb    dPMM                             
+          M YM   ,M MM   ,6"Yb.  `7MM  `7MMpMMMb.  
+          M  Mb  M' MM  8)   MM    MM    MM    MM  
+          M  YM.P'  MM   ,pm9MM    MM    MM    MM  
+          M  `YM'   MM  8M   MM    MM    MM    MM  
+        .JML. `'  .JMML.`Moo9^Yo..JMML..JMML  JMML.
+                                                   
+*/
+
+/* import webfont */
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+/* Hide banner ads */
+.main-topBar-UpgradeButton,
+.main-topBar-UpgradeLink,
+.main-yourLibraryX-banner {
+    display: none !important;
+}
+
+/* Minimalist UI */
+.main-navBar-navBar,
+.main-yourLibraryX-container {
+    background-color: var(--main);
+    border: none;
+}
+
+/* Rounded buttons */
+button,
+.main-playButton-button {
+    border-radius: 8px;
+}
+
+/* Hover effects */
+button:hover,
+.main-playButton-button:hover {
+    background-color: var(--button-active);
+}
+
+/* Round the playbar container */
+.Root__now-playing-bar {
+    margin: 12px;
+}
+
+/* Round the progress bar */
+.playback-progressbar {
+    border-radius: 50px;
+    height: 12px;
+    /* Adjust thickness */
+}
+
+/* Round the progress fill */
+.progress-bar__fg,
+.playback-progressbar-container,
+.playback-progressbar,
+.Root__now-playing-bar {
+    border-radius: 50px;
+}
+
+/*
+
+                            ,,       ,,        ,,                            
+              db          `7MM      *MM      `7MM                  `7MM      
+             ;MM:           MM       MM        MM                    MM      
+            ,V^MM.     ,M""bMM       MM,dMMb.  MM  ,pW"Wq.   ,p6"bo  MM  ,MP'
+           ,M  `MM   ,AP    MM       MM    `Mb MM 6W'   `Wb 6M'  OO  MM ;Y   
+           AbmmmqMA  8MI    MM       MM     M8 MM 8M     M8 8M       MM;Mm   
+          A'     VML `Mb    MM       MM.   ,M9 MM YA.   ,A9 YM.    , MM `Mb. 
+        .AMA.   .AMMA.`Wbmd"MML.     P^YbmdP'.JMML.`Ybmd9'   YMbmd'.JMML. YA.
+
+        "results may very, replace these classes with the "
+*/
+
+/* Top Banner Ads */
+.utUDWsORU96S7boXm2Aq, /* Ad Container */
+.vYl1kgf1_R18FCmHgdw2 /* Banner Ad */ {
+    display: none !important;
+    width: 0px;
+    height: 0px;
+}
+
+/* Bottom Banner Ads */
+._Cq69xKZBtHaaeMZXIdk /* Ad Container + Banner Ad*/ {
+    display: none !important;
+    width: 0px;
+    height: 0px;
+}
+
