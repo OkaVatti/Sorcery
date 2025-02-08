@@ -113,17 +113,23 @@ button:hover,
 */
 
 /* Top Banner Ads */
-.utUDWsORU96S7boXm2Aq, /* Ad Container */
-.vYl1kgf1_R18FCmHgdw2 /* Banner Ad */ {
+.utUDWsORU96S7boXm2Aq,
+/* Ad Container */
+.vYl1kgf1_R18FCmHgdw2
+
+/* Banner Ad */
+    {
     display: none !important;
     width: 0px;
     height: 0px;
 }
 
 /* Bottom Banner Ads */
-._Cq69xKZBtHaaeMZXIdk /* Ad Container + Banner Ad*/ {
+._Cq69xKZBtHaaeMZXIdk
+
+/* Ad Container + Banner Ad*/
+    {
     display: none !important;
     width: 0px;
     height: 0px;
 }
-
